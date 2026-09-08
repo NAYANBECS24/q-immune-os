@@ -1,0 +1,11 @@
+demo:
+  theme: "Blockchain & Cybersecurity"
+  problem_statement: 26141
+  organization: "Egreen Quanta"
+  default_messages:
+    - name: "Defence Procurement Smart Contract"
+      content: "CONTRACT_GOV_DEFENCE_2026_QDS_AUTHORIZATION_DOC_0098"
+    - name: "Interbank High-Value Quantum Transfer"
+      content: "INTERBANK_RTGS_SETTLEMENT_INR_500_CRORE_TOKEN_HASH_4491"
+    - name: "Critical Infrastructure SCADA Grid Command"
+      content: "SCADA_GRID_SWITCH_ROUTING_FEEDER_SUBSTATION_7A_DISPATCH"

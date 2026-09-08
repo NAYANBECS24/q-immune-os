@@ -1,0 +1,10 @@
+q_immune_qds.db
+__pycache__/
+*.pyc
+.agents/
+.claude/
+*.pptx
+*.docx
+.env
+*.env
+secrets/

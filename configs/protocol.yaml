@@ -1,0 +1,13 @@
+protocol:
+  protocol_id: "QIMMUNE-QDS-TB-001"
+  protocol_version: "1.0"
+  name: "Teleportation-Based QDS with Authenticated Classical Channel"
+  qubit_block_size: 32
+  basis_set:
+    - "Z"
+    - "X"
+  entanglement_source: "EPR_Bell_Phi_Plus"
+  classical_channel_auth: "HMAC-SHA256"
+  baseline_noise: 0.01
+  canary_probes: 16
+  chsh_samples: 200

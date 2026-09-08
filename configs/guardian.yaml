@@ -1,0 +1,18 @@
+guardian:
+  policy_id: "POL_GUARDIAN_SIH_2026"
+  version: "1.0"
+  max_qber: 0.055
+  max_ver: 0.045
+  binomial_alpha: 0.01
+  min_fidelity: 0.92
+  strict_canary: true
+  max_verification_attempts: 3
+  auto_quarantine_on_compromised_canary: true
+  auto_block_on_replay: true
+  actions:
+    legitimate: ACCEPT
+    forgery: REJECT
+    impersonation: BLOCK
+    replay: BLOCK
+    channel_anomaly: QUARANTINE
+    insufficient_evidence: ESCALATE
